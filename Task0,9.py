@@ -10,3 +10,6 @@ def vowels(string):
             vowels_found = vowels_found + letter
     result = delimeter.join(vowels_found)
     print(f"Vowels: {result}")
+
+
+vowels("Umuzi")

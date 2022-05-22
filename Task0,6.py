@@ -7,6 +7,8 @@ def maximum(num1, num2, num3):
         return num3
 
 
+print(maximum(1, 2, 3))
+
 # BONUS
 def maximum2(*numbers):
     max_num = 0
@@ -14,3 +16,6 @@ def maximum2(*numbers):
         if number > max_num:
             max_num = number
     return max_num
+
+
+print(maximum2(1, 22, 3, 2))

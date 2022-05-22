@@ -11,3 +11,6 @@ def common_letters(string1, string2):
             common_characters = common_characters + [letter]
     results = delimeter.join(common_characters)
     return f"Common letter: {results}"
+
+
+print(common_letters("house", "computers"))
